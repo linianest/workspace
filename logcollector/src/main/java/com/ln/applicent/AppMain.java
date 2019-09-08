@@ -143,7 +143,7 @@ public class AppMain {
 
         JSONObject evenJson = (JSONObject) JSON.toJSON(appActive_background);
 
-        return packEventJson("notification", evenJson);
+        return packEventJson("active_background", evenJson);
 
 
     }
@@ -253,7 +253,7 @@ public class AppMain {
 
         JSONObject evenJson = (JSONObject) JSON.toJSON(appActive_foreground);
 
-        return packEventJson("notification", evenJson);
+        return packEventJson("active_forground", evenJson);
 
 
     }
