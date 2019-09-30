@@ -1,0 +1,9 @@
+Index: ct-bigdata-project/.gitignore
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- ct-bigdata-project/.gitignore	(date 1569829929245)
++++ ct-bigdata-project/.gitignore	(date 1569829929245)
+@@ -0,0 +1,1 @@
++/ct-producer/src/main/resources/
