@@ -1,7 +1,7 @@
 package com.ln.ct.web.service.impl;
 
 import com.ln.ct.web.bean.Calllog;
-import com.ln.ct.web.dao.CalllogDao;
+import com.ln.ct.web.dao.CalllogMapper;
 import com.ln.ct.web.service.CalllogService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
@@ -20,7 +20,7 @@ import java.util.Map;
 public class CalllogServiceImpl implements CalllogService {
 
     @Autowired
-    private CalllogDao calllogDao;
+    private CalllogMapper calllogMapper;
 
     /**
      * 查询用户指定时间的通话统计信息
@@ -38,6 +38,6 @@ public class CalllogServiceImpl implements CalllogService {
         }
         paramMap.put("year",calltime);
 
-        return calllogDao.queryMonthDatas(paramMap);
+        return calllogMapper.queryMonthDatas(paramMap);
     }
 }

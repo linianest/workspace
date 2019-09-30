@@ -8,9 +8,15 @@ spring:
     password: 123456
     url: jdbc:mysql://mini1:3306/ct?useUnicode=true&characterEncoding=utf-8&useSSL=true&serverTimezone=UTC
     driver-class-name: com.mysql.jdbc.Driver
+  devtools:
+    restart:
+      enabled: true
+      additional-paths: src/main/java
+      exclude: WEB-INF/**
 
 # 设置mybatis
-#mybatis:
-#  config-location: classpath:mybatis/config.xml
-#  mapper-locations: classpath:mybatis/mapper/*Mapper.xml
+mybatis:
+    config-location: classpath:mybatis/config.xml
+    mapper-locations: classpath:mybatis/mapper/*Mapper.xml
 
+#热部署生效
