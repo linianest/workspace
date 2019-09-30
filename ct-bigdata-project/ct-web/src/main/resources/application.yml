@@ -1,0 +1,16 @@
+server:
+  port: 8080
+
+# 配置数据库和页面设置
+spring:
+  datasource:
+    username: root
+    password: 123456
+    url: jdbc:mysql://mini1:3306/ct?useUnicode=true&characterEncoding=utf-8&useSSL=true&serverTimezone=UTC
+    driver-class-name: com.mysql.jdbc.Driver
+
+# 设置mybatis
+#mybatis:
+#  config-location: classpath:mybatis/config.xml
+#  mapper-locations: classpath:mybatis/mapper/*Mapper.xml
+
