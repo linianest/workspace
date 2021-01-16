@@ -7,10 +7,10 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="classLoader" />
-        <module name="design_pattern" />
         <module name="example" />
-        <module name="jdk7" />
         <module name="sharing" />
+        <module name="jdk7" />
+        <module name="design_pattern" />
       </profile>
     </annotationProcessing>
   </component>
