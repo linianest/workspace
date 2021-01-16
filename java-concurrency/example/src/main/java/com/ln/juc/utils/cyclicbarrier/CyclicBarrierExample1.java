@@ -10,4 +10,7 @@ package com.ln.juc.utils.cyclicbarrier;
  * @Description TODO:
  */
 public class CyclicBarrierExample1 {
+    public static void main(String[] args) {
+
+    }
 }
