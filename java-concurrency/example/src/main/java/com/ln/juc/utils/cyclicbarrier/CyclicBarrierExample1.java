@@ -11,6 +11,6 @@ package com.ln.juc.utils.cyclicbarrier;
  */
 public class CyclicBarrierExample1 {
     public static void main(String[] args) {
-        System.out.println();
+        System.out.println("aa");
     }
 }
